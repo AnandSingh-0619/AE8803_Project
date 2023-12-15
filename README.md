@@ -1,4 +1,4 @@
-# Autonomous landing with reinforcement learning
+# Autonomous landing on Moving PLatform using DDPG
 Deep reinforcement learning for drone precision landing, docker container for simulation in Gazebo-ROS2 
 dashing with PX4-Autopilot controller. 
 
@@ -27,7 +27,7 @@ cd /src/shared
 
 
 
-## SImulation video
+## Simulation video
 The simulation video for this implementation can be found at this [link](https://youtu.be/OaIrJ7aA2g0) in which the landing platform is moving linearly. Another simulation video [link](https://youtu.be/3Sl5yUurCLs) shows landing of UAV on still platform.
 
 
