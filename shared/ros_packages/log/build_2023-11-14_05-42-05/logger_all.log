@@ -1,0 +1,312 @@
+[4.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.130s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fadc24126d8>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fadc24126d8>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fadc215a4a8>)
+[4.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.287s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[4.290s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[4.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.292s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/src/shared/ros_packages'
+[4.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[4.486s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[4.487s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[4.487s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[4.488s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extensions ['ignore', 'ignore_ament_install']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extension 'ignore'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extension 'ignore_ament_install'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extensions ['colcon_pkg']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extension 'colcon_pkg'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extensions ['colcon_meta']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extension 'colcon_meta'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extensions ['ros']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_extended) by extension 'ros'
+[4.489s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_extended' with type 'ros.ament_cmake' and name 'px4_ros_extended'
+[4.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.765s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 230 installed packages in /opt/ros/dashing
+[4.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.125s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/src/shared/ros_packages/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/src/shared/ros_packages/install/px4_msgs', 'merge_install': False, 'path': '/src/shared/ros_packages/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.126s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/src/shared/ros_packages/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/src/shared/ros_packages/install/px4_ros_com', 'merge_install': False, 'path': '/src/shared/ros_packages/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_args' from command line to 'None'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_target' from command line to 'None'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_clean_cache' from command line to 'False'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_clean_first' from command line to 'False'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'cmake_force_configure' from command line to 'False'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'ament_cmake_args' from command line to 'None'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'catkin_cmake_args' from command line to 'None'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_extended' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.127s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_extended' with the following arguments: {'ament_cmake_args': None, 'build_base': '/src/shared/ros_packages/build/px4_ros_extended', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/src/shared/ros_packages/install/px4_ros_extended', 'merge_install': False, 'path': '/src/shared/ros_packages/px4_ros_extended', 'symlink_install': False, 'test_result_base': None}
+[5.128s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.129s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/src/shared/ros_packages/px4_msgs' with build type 'ament_cmake'
+[5.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/src/shared/ros_packages/px4_msgs'
+[5.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /src/shared/ros_packages/px4_msgs -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_msgs
+[45.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /src/shared/ros_packages/px4_msgs -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_msgs
+[45.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs -- -j12 -l12
+[313.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs -- -j12 -l12
+[329.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs --target install -- -j12 -l12
+[330.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[330.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs --target install -- -j12 -l12
+[331.047s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs' for CMake module files
+[331.049s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs' for CMake config files
+[331.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[331.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[331.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[331.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[331.094s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib'
+[331.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[331.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[331.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[331.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[331.100s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/bin'
+[331.101s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[331.102s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages'
+[331.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[331.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[331.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[331.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[331.108s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/bin'
+[331.110s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.ps1'
+[331.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.dsv'
+[331.115s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.sh'
+[331.118s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.bash'
+[331.121s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.zsh'
+[331.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[349.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[349.496s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs' for CMake module files
+[349.498s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs' for CMake config files
+[349.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[349.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[349.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[349.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[349.508s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib'
+[349.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[349.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[349.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[349.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[349.512s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/bin'
+[349.512s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[349.513s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages'
+[349.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[349.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[349.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[349.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[349.515s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_msgs/bin'
+[349.516s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.ps1'
+[349.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.dsv'
+[349.519s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.sh'
+[349.520s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.bash'
+[349.521s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/package.zsh'
+[349.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[349.522s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/src/shared/ros_packages/px4_ros_com' with build type 'ament_cmake'
+[349.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/src/shared/ros_packages/px4_ros_com'
+[349.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[349.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[349.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/src/shared/ros_packages/px4_ros_extended' with build type 'ament_cmake'
+[349.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/src/shared/ros_packages/px4_ros_extended'
+[349.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[349.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[349.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_com': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /src/shared/ros_packages/px4_ros_com -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_com
+[349.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /src/shared/ros_packages/px4_ros_extended -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[353.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /src/shared/ros_packages/px4_ros_extended -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[353.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[356.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /src/shared/ros_packages/px4_ros_com -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_com
+[356.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_com': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com -- -j12 -l12
+[366.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[366.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12
+[366.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_extended)
+[366.844s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended' for CMake module files
+[366.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12
+[366.845s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended' for CMake config files
+[366.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_extended', 'cmake_prefix_path')
+[366.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.ps1'
+[366.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.dsv'
+[366.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.sh'
+[366.848s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib'
+[366.848s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/bin'
+[366.848s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib/pkgconfig/px4_ros_extended.pc'
+[366.849s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages'
+[366.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_extended', 'pythonpath')
+[366.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.ps1'
+[366.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.dsv'
+[366.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.sh'
+[366.851s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/bin'
+[366.851s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.ps1'
+[366.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.dsv'
+[366.852s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.sh'
+[366.853s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.bash'
+[366.853s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.zsh'
+[366.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_ros_extended/share/colcon-core/packages/px4_ros_extended)
+[366.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_extended)
+[366.930s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended' for CMake module files
+[366.932s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended' for CMake config files
+[366.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_extended', 'cmake_prefix_path')
+[366.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.ps1'
+[366.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.dsv'
+[366.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/cmake_prefix_path.sh'
+[366.936s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib'
+[366.937s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/bin'
+[366.937s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib/pkgconfig/px4_ros_extended.pc'
+[366.937s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages'
+[366.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_extended', 'pythonpath')
+[366.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.ps1'
+[366.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.dsv'
+[366.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/hook/pythonpath.sh'
+[366.940s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_extended/bin'
+[366.941s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.ps1'
+[366.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.dsv'
+[366.943s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.sh'
+[366.944s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.bash'
+[366.945s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.zsh'
+[366.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_ros_extended/share/colcon-core/packages/px4_ros_extended)
+[448.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com -- -j12 -l12
+[450.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/src/shared/ros_packages/build/px4_ros_com': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com --target install -- -j12 -l12
+[452.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com --target install -- -j12 -l12
+[452.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[453.151s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com' for CMake module files
+[453.311s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com' for CMake config files
+[453.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[453.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[453.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[453.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[454.049s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib'
+[454.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[454.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[454.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[454.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[454.080s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/bin'
+[454.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[454.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[454.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[454.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[454.110s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[454.132s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib/python3.6/site-packages'
+[454.133s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/bin'
+[454.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonscriptspath')
+[454.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.ps1'
+[454.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.dsv'
+[454.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.sh'
+[454.181s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[454.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[454.252s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.sh'
+[454.256s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.bash'
+[454.285s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[454.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[455.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[455.287s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com' for CMake module files
+[455.289s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com' for CMake config files
+[455.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[455.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[455.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[455.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[455.364s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib'
+[455.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[455.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[455.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[455.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[455.403s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/bin'
+[455.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[455.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[455.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[455.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[455.461s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[455.462s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/lib/python3.6/site-packages'
+[455.463s] Level 1:colcon.colcon_core.environment:checking '/src/shared/ros_packages/install/px4_ros_com/bin'
+[455.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonscriptspath')
+[455.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.ps1'
+[455.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.dsv'
+[455.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.sh'
+[455.506s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[455.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[455.536s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.sh'
+[455.539s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.bash'
+[455.540s] INFO:colcon.colcon_core.shell:Creating package script '/src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[455.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/src/shared/ros_packages/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[455.654s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[456.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[456.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[456.065s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[457.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[457.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[457.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[457.759s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[457.940s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.InvalidFileContent: D-Bus library appears to be incorrectly set up: see the manual page for dbus-uuidgen to correct this issue. (Failed to open "/var/lib/dbus/machine-id": No such file or directory; UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text)
+[457.940s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[458.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/src/shared/ros_packages/install/local_setup.ps1'
+[458.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/src/shared/ros_packages/install/_local_setup_util_ps1.py'
+[458.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/src/shared/ros_packages/install/setup.ps1'
+[458.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/src/shared/ros_packages/install/local_setup.sh'
+[458.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/src/shared/ros_packages/install/_local_setup_util_sh.py'
+[458.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/src/shared/ros_packages/install/setup.sh'
+[458.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/src/shared/ros_packages/install/local_setup.bash'
+[458.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/src/shared/ros_packages/install/setup.bash'
+[458.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/src/shared/ros_packages/install/local_setup.zsh'
+[458.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/src/shared/ros_packages/install/setup.zsh'

@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[0.109s] [ 50%] Built target env
+[0.118s] [100%] Built target baseline_prec_land
+[0.130s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[0.162s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12
+[0.235s] [ 75%] Built target baseline_prec_land
+[0.235s] [100%] Built target env
+[0.257s] [36mInstall the project...[0m
+[0.266s] -- Install configuration: ""
+[0.267s] -- Execute custom install script
+[0.267s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+[0.268s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/__init__.py
+[0.268s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/ddpg.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/memory.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/models.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/utils.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/__init__.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/ddpg_agent.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/env_wrapper.py
+[0.269s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/gazebo_runner.py
+[0.270s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/params.yaml
+[0.270s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/rewards.py
+[0.270s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_ddpg_agent.py
+[0.270s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_env_wrapper.py
+[0.271s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env
+[0.271s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+[0.271s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+[0.271s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+[0.272s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+[0.272s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+[0.272s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+[0.272s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+[0.273s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+[0.273s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+[0.273s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+[0.273s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+[0.274s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+[0.274s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+[0.274s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+[0.275s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+[0.275s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+[0.275s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+[0.275s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+[0.276s] -- Up-to-date symlink: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.xml
+[0.309s] Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py'...
+[0.310s] Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG'...
+[0.317s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12

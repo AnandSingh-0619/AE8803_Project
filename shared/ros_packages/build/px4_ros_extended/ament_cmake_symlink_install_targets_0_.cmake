@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/src/shared/ros_packages/build/px4_ros_extended/env" "/src/shared/ros_packages/build/px4_ros_extended/baseline_prec_land" "TARGETS" "env" "baseline_prec_land" "DESTINATION" "lib/px4_ros_extended")

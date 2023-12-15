@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea6d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea6d5.dir/build.make CMakeFiles/cmTC_ea6d5.dir/build
+make[1]: Entering directory '/src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea6d5.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_ea6d5.dir/CheckSymbolExists.c.o   -c /src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ea6d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea6d5.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      CMakeFiles/cmTC_ea6d5.dir/CheckSymbolExists.c.o  -o cmTC_ea6d5 
+CMakeFiles/cmTC_ea6d5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea6d5.dir/build.make:97: recipe for target 'cmTC_ea6d5' failed
+make[1]: *** [cmTC_ea6d5] Error 1
+make[1]: Leaving directory '/src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea6d5/fast' failed
+make: *** [cmTC_ea6d5/fast] Error 2
+
+File /src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb60a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb60a.dir/build.make CMakeFiles/cmTC_cb60a.dir/build
+make[1]: Entering directory '/src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb60a.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cb60a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb60a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb60a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cb60a.dir/CheckFunctionExists.c.o  -o cmTC_cb60a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cb60a.dir/build.make:97: recipe for target 'cmTC_cb60a' failed
+make[1]: *** [cmTC_cb60a] Error 1
+make[1]: Leaving directory '/src/shared/ros_packages/build/px4_ros_com/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb60a/fast' failed
+make: *** [cmTC_cb60a/fast] Error 2
+
+

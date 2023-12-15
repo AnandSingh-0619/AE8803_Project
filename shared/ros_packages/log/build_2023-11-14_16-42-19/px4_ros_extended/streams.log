@@ -1,0 +1,75 @@
+[0.024s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /src/shared/ros_packages/px4_ros_extended -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[0.091s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.407s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.450s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.543s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.835s] -- Found px4_msgs: 2.0.1 (/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/cmake)
+[0.855s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.872s] -- Found gazebo_msgs: 3.3.5 (/opt/ros/dashing/share/gazebo_msgs/cmake)
+[1.006s] -- Found rclpy: 0.7.11 (/opt/ros/dashing/share/rclpy/cmake)
+[1.170s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.894s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.998s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.999s] -- Configured cppcheck include dirs: 
+[2.057s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.068s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.141s] -- Added test 'lint_cmake' to check CMake code style
+[2.164s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.203s] -- Added test 'uncrustify' to check C / C++ code style
+[2.221s] -- Added test 'xmllint' to check XML markup files
+[2.360s] -- Configuring done
+[3.734s] -- Generating done
+[3.735s] -- Build files have been written to: /src/shared/ros_packages/build/px4_ros_extended
+[3.739s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /src/shared/ros_packages/px4_ros_extended -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[3.742s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[3.821s] [ 50%] [32m[1mLinking CXX executable baseline_prec_land[0m
+[3.821s] [ 50%] [32m[1mLinking CXX executable env[0m
+[4.898s] [ 75%] Built target baseline_prec_land
+[5.017s] [100%] Built target env
+[5.029s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j12 -l12
+[5.062s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12
+[5.135s] [100%] Built target env
+[5.135s] [100%] Built target baseline_prec_land
+[5.156s] [36mInstall the project...[0m
+[5.165s] -- Install configuration: ""
+[5.166s] -- Execute custom install script
+[5.166s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+[5.183s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/__init__.py
+[5.192s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/ddpg.py
+[5.202s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/memory.py
+[5.212s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/models.py
+[5.221s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/utils.py
+[5.231s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/__init__.py
+[5.241s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/ddpg_agent.py
+[5.252s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/env_wrapper.py
+[5.262s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/gazebo_runner.py
+[5.273s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/params.yaml
+[5.290s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/rewards.py
+[5.300s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_ddpg_agent.py
+[5.311s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_env_wrapper.py
+[5.321s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env
+[5.332s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+[5.344s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+[5.353s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+[5.363s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+[5.373s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+[5.388s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+[5.398s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+[5.407s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+[5.417s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+[5.426s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+[5.437s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+[5.447s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+[5.457s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+[5.468s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+[5.483s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+[5.494s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+[5.504s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+[5.514s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+[5.524s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.xml
+[5.577s] Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py'...
+[5.577s] Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG'...
+[5.589s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended --target install -- -j12 -l12

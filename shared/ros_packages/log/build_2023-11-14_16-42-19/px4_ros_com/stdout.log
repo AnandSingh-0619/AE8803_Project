@@ -1,0 +1,76 @@
+-- Using C++17 compiler
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)
+-- Found px4_msgs: 2.0.1 (/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/cmake)
+-- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+-- fastrtpsgen found in /usr/local/bin
+-- fastrtpsgen version 1.0.4
+-- px4_msgs message dir under /src/shared/ros_packages/install/px4_msgs/share/px4_msgs/msg
+-- IDL definitions under /src/shared/ros_packages/install/px4_msgs/share/px4_msgs/msg
+-- Retrieving list of msgs to send...
+-- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, OpticalFlow, PositionSetpoint, PositionSetpointTriplet, TelemetryStatus, Timesync, TrajectoryBezier, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, TrajectorySetpoint, VehicleMocapOdometry, VehicleVisualOdometry
+-- Retrieving list of msgs to receive...
+-- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleOdometry, VehicleStatus
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /src/shared/ros_packages/build/px4_ros_com
+[  2%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[  2%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[  3%] [32m[1mLinking CXX executable offboard_control[0m
+[  4%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[  6%] Built target frame_transforms
+[ 95%] Built target micrortps_agent
+[ 96%] Built target sensor_combined_listener
+[ 97%] Built target debug_vect_advertiser
+[ 98%] Built target vehicle_gps_position_listener
+[100%] Built target offboard_control
+[  2%] Built target debug_vect_advertiser
+[  4%] Built target sensor_combined_listener
+[  6%] Built target vehicle_gps_position_listener
+[  8%] Built target offboard_control
+[ 10%] Built target frame_transforms
+[100%] Built target micrortps_agent
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/offboard_control
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.xml
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/lib/libframe_transforms.so
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/bin/micrortps_agent
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+-- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake

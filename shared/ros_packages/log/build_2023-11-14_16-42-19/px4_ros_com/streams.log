@@ -1,0 +1,87 @@
+[0.020s] Invoking command in '/src/shared/ros_packages/build/px4_ros_com': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /src/shared/ros_packages/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_com
+[0.099s] -- Using C++17 compiler
+[0.100s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.400s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.409s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.457s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.551s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.843s] -- Found rmw_fastrtps_cpp: 0.7.8 (/opt/ros/dashing/share/rmw_fastrtps_cpp/cmake)
+[1.056s] -- Found px4_msgs: 2.0.1 (/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/cmake)
+[1.150s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.319s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[1.367s] -- fastrtpsgen found in /usr/local/bin
+[3.637s] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+[3.637s] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+[5.283s] openjdk version "1.8.0_292"
+[5.283s] OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10)
+[5.283s] OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
+[5.773s] -- fastrtpsgen version 1.0.4
+[5.773s] -- px4_msgs message dir under /src/shared/ros_packages/install/px4_msgs/share/px4_msgs/msg
+[5.774s] -- IDL definitions under /src/shared/ros_packages/install/px4_msgs/share/px4_msgs/msg
+[5.774s] -- Retrieving list of msgs to send...
+[5.903s] -- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, OpticalFlow, PositionSetpoint, PositionSetpointTriplet, TelemetryStatus, Timesync, TrajectoryBezier, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, TrajectorySetpoint, VehicleMocapOdometry, VehicleVisualOdometry
+[5.903s] -- Retrieving list of msgs to receive...
+[5.964s] -- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleOdometry, VehicleStatus
+[6.328s] -- Configuring done
+[6.730s] -- Generating done
+[6.733s] -- Build files have been written to: /src/shared/ros_packages/build/px4_ros_com
+[6.738s] Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /src/shared/ros_packages/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_com
+[6.741s] Invoking command in '/src/shared/ros_packages/build/px4_ros_com': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com -- -j12 -l12
+[6.843s] [  2%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[6.843s] [  2%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[6.844s] [  3%] [32m[1mLinking CXX executable offboard_control[0m
+[6.845s] [  4%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[6.848s] [  6%] Built target frame_transforms
+[6.912s] [ 95%] Built target micrortps_agent
+[7.975s] [ 96%] Built target sensor_combined_listener
+[8.279s] [ 97%] Built target debug_vect_advertiser
+[8.744s] [ 98%] Built target vehicle_gps_position_listener
+[8.808s] [100%] Built target offboard_control
+[8.822s] Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com -- -j12 -l12
+[9.105s] Invoking command in '/src/shared/ros_packages/build/px4_ros_com': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com --target install -- -j12 -l12
+[9.206s] [  2%] Built target debug_vect_advertiser
+[9.206s] [  4%] Built target sensor_combined_listener
+[9.207s] [  6%] Built target vehicle_gps_position_listener
+[9.210s] [  8%] Built target offboard_control
+[9.212s] [ 10%] Built target frame_transforms
+[9.266s] [100%] Built target micrortps_agent
+[9.289s] [36mInstall the project...[0m
+[9.305s] -- Install configuration: ""
+[9.305s] -- Execute custom install script
+[9.306s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[9.318s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[9.329s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[9.340s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[9.351s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[9.363s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[9.374s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+[9.384s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+[9.396s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+[9.411s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+[9.422s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+[9.432s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+[9.443s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+[9.453s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+[9.465s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[9.476s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[9.487s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[9.503s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[9.515s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[9.526s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[9.537s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[9.547s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[9.558s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.569s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_interfaces-extras.cmake
+[9.580s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.591s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[9.606s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[9.618s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[9.629s] -- Symlinking: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.xml
+[9.640s] -- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/lib/libframe_transforms.so
+[9.640s] -- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/bin/micrortps_agent
+[9.641s] -- Up-to-date: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[9.641s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[9.646s] Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/opt/ros/dashing LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:/src/shared/ros_packages/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.6/site-packages:/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com --target install -- -j12 -l12

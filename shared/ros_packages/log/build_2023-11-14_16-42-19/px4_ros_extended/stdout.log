@@ -1,0 +1,69 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found px4_msgs: 2.0.1 (/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/cmake)
+-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+-- Found gazebo_msgs: 3.3.5 (/opt/ros/dashing/share/gazebo_msgs/cmake)
+-- Found rclpy: 0.7.11 (/opt/ros/dashing/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /src/shared/ros_packages/build/px4_ros_extended
+[ 50%] [32m[1mLinking CXX executable baseline_prec_land[0m
+[ 50%] [32m[1mLinking CXX executable env[0m
+[ 75%] Built target baseline_prec_land
+[100%] Built target env
+[100%] Built target env
+[100%] Built target baseline_prec_land
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/__init__.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/ddpg.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/memory.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/models.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/utils.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/__init__.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/ddpg_agent.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/env_wrapper.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/gazebo_runner.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/params.yaml
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/rewards.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_ddpg_agent.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_env_wrapper.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+-- Symlinking: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.xml
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py'...
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG'...

@@ -1,0 +1,1 @@
+/src/shared/ros_packages/px4_msgs/msg/VehicleLocalPositionSetpoint.msg

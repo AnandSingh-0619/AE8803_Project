@@ -1,0 +1,11 @@
+source;share/px4_ros_extended/hook/cmake_prefix_path.ps1
+source;share/px4_ros_extended/hook/cmake_prefix_path.dsv
+source;share/px4_ros_extended/hook/cmake_prefix_path.sh
+source;share/px4_ros_extended/hook/pythonpath.ps1
+source;share/px4_ros_extended/hook/pythonpath.dsv
+source;share/px4_ros_extended/hook/pythonpath.sh
+source;share/px4_ros_extended/local_setup.bash
+source;share/px4_ros_extended/local_setup.dsv
+source;share/px4_ros_extended/local_setup.ps1
+source;share/px4_ros_extended/local_setup.sh
+source;share/px4_ros_extended/local_setup.zsh

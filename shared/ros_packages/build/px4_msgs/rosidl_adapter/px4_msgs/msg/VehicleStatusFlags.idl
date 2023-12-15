@@ -1,0 +1,116 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/VehicleStatusFlags.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " This is a struct used by the commander internally.")
+    struct VehicleStatusFlags {
+      @verbatim (language="comment", text=
+        " time since system start (microseconds)")
+      uint64 timestamp;
+
+      boolean condition_calibration_enabled;
+
+      boolean condition_system_sensors_initialized;
+
+      @verbatim (language="comment", text=
+        " true if the hotplug sensor search is over")
+      boolean condition_system_hotplug_timeout;
+
+      boolean condition_system_returned_to_home;
+
+      boolean condition_auto_mission_available;
+
+      boolean condition_angular_velocity_valid;
+
+      boolean condition_attitude_valid;
+
+      boolean condition_local_altitude_valid;
+
+      @verbatim (language="comment", text=
+        " set to true by the commander app if the quality of the local position estimate is good enough to use for navigation")
+      boolean condition_local_position_valid;
+
+      @verbatim (language="comment", text=
+        " set to true by the commander app if the quality of the local horizontal velocity data is good enough to use for navigation")
+      boolean condition_local_velocity_valid;
+
+      @verbatim (language="comment", text=
+        " set to true by the commander app if the quality of the global position estimate is good enough to use for navigation")
+      boolean condition_global_position_valid;
+
+      @verbatim (language="comment", text=
+        " indicates a valid home position (a valid home position is not always a valid launch)")
+      boolean condition_home_position_valid;
+
+      @verbatim (language="comment", text=
+        " set if input power is valid")
+      boolean condition_power_input_valid;
+
+      @verbatim (language="comment", text=
+        " set if battery is available and not low")
+      boolean condition_battery_healthy;
+
+      @verbatim (language="comment", text=
+        " set to true if one or more ESCs reporting esc_status are offline")
+      boolean condition_escs_error;
+
+      @verbatim (language="comment", text=
+        " set to true if one or more ESCs reporting esc_status has a failure")
+      boolean condition_escs_failure;
+
+      boolean circuit_breaker_engaged_power_check;
+
+      boolean circuit_breaker_engaged_airspd_check;
+
+      boolean circuit_breaker_engaged_enginefailure_check;
+
+      boolean circuit_breaker_flight_termination_disabled;
+
+      boolean circuit_breaker_engaged_usb_check;
+
+      @verbatim (language="comment", text=
+        " set to true when the position valid checks have been disabled")
+      boolean circuit_breaker_engaged_posfailure_check;
+
+      @verbatim (language="comment", text=
+        " set to true if for VTOLs arming in fixed-wing mode should be allowed")
+      boolean circuit_breaker_vtol_fw_arming_check;
+
+      boolean offboard_control_signal_lost;
+
+      boolean rc_signal_found_once;
+
+      @verbatim (language="comment", text=
+        " set if RC input should be ignored temporarily")
+      boolean rc_input_blocked;
+
+      @verbatim (language="comment", text=
+        " set if RC calibration is valid")
+      boolean rc_calibration_valid;
+
+      @verbatim (language="comment", text=
+        " Set to true if vtol transition failed")
+      boolean vtol_transition_failure;
+
+      @verbatim (language="comment", text=
+        " status of the USB power supply")
+      boolean usb_connected;
+
+      @verbatim (language="comment", text=
+        " set to true if the SD card was detected")
+      boolean sd_card_detected_once;
+
+      @verbatim (language="comment", text=
+        " Set to true if avoidance system is enabled via COM_OBS_AVOID parameter")
+      boolean avoidance_system_required;
+
+      @verbatim (language="comment", text=
+        " Status of the obstacle avoidance system")
+      boolean avoidance_system_valid;
+    };
+  };
+};

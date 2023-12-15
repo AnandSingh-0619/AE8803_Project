@@ -1,0 +1,4 @@
+Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs -- -j12 -l12
+Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs -- -j12 -l12
+Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs --target install -- -j12 -l12
+Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /src/shared/ros_packages/build/px4_msgs --target install -- -j12 -l12

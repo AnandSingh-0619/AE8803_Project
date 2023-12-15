@@ -1,0 +1,45 @@
+[100%] Built target baseline_prec_land
+[100%] Built target env
+[ 50%] Built target baseline_prec_land
+[100%] Built target env
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/__init__.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/utils.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/models.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/memory.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG/ddpg.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/env_wrapper.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/gazebo_runner.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/__init__.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/params.yaml
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/rewards.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_ddpg_agent.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/test_env_wrapper.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/ddpg_agent.py
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py'...
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.6/site-packages/src_py/DDPG'...
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+-- Up-to-date: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.xml

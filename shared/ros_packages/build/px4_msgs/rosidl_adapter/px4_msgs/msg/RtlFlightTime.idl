@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/RtlFlightTime.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    struct RtlFlightTime {
+      @verbatim (language="comment", text=
+        " time since system start (microseconds)")
+      uint64 timestamp;
+
+      @verbatim (language="comment", text=
+        " how long in seconds will the RTL take")
+      float rtl_time_s;
+
+      @verbatim (language="comment", text=
+        " what fraction of the allowable RTL time would be taken")
+      float rtl_limit_fraction;
+    };
+  };
+};
