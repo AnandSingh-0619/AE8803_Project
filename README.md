@@ -28,7 +28,7 @@ cd /src/shared
 
 
 ## SImulation video
-The simulation video for this implementation can be found at this [link]https://youtu.be/OaIrJ7aA2g0 in which the landing platform is moving linearly. Another simulation video [link]https://youtu.be/3Sl5yUurCLs shows landing of UAV on still platform.
+The simulation video for this implementation can be found at this [link](https://youtu.be/OaIrJ7aA2g0) in which the landing platform is moving linearly. Another simulation video [link](https://youtu.be/3Sl5yUurCLs) shows landing of UAV on still platform.
 
 
 ## References <a name="references"></a>
@@ -43,6 +43,6 @@ The simulation video for this implementation can be found at this [link]https://
    volume = {93},
    year = {2019},
 }
-'''
-The initial code for the DDPG algorithm and Framework has been taken from [this](https://github.com/vy007vikas/PyTorch-ActorCriticRL) and [this]https://github.com/carlo98/precision_landing_shaping_RL
+```
+The initial code for the DDPG algorithm and Framework has been taken from [this](https://github.com/vy007vikas/PyTorch-ActorCriticRL) and [this](https://github.com/carlo98/precision_landing_shaping_RL)
 github repository.
